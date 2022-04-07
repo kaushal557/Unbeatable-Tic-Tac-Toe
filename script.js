@@ -164,9 +164,9 @@ function winning(board, player) {
 
 //automatic changing background color
     var div_main = document.getElementById("background");
-		var r = [102, 99, 6];
-		var g = [204, 211, 179];
-		var b = [6, 179, 219];
+		var r = [102, 99, 6, 92, 243, 155, 220, 11, 140, 59];
+		var g = [204, 211, 179, 229, 156, 89, 61, 140, 108, 181];
+		var b = [6, 179, 219, 180, 18, 182, 102, 227, 107, 97];
 		var i = 0;
 		function changeBgColor() {
   			div_main.style.backgroundColor = 'rgb(' + r[i] + ',' + g[i] + ',' + b[i] + ')';
@@ -176,4 +176,4 @@ function winning(board, player) {
     			i = 0;
   			}
 		}
-		setInterval(changeBgColor, 2000);
+		setInterval(changeBgColor, 5000);
