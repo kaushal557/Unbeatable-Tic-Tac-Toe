@@ -68,7 +68,7 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
-  -webkit-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
+  -webkit-transition: background-color 3000ms linear;
+  -ms-transition: background-color 3000ms linear;
+  transition: background-color 3000ms linear;
 }
