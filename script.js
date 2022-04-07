@@ -161,3 +161,19 @@ function winning(board, player) {
     return false;
   }
 }
+
+//automatic changing background color
+    var div_main = document.getElementByClassName("main");
+		var r = [102, 99, 6];
+		var g = [204, 211, 179];
+		var b = [6, 179, 219];
+		var i = 0;
+		function changeBgColor() {
+  			div_main.style.backgroundColor = 'rgb(' + r[i] + ',' + g[i] + ',' + b[i] + ')';
+  			i++;
+  
+  			if(i > r.length - 1) {
+    			i = 0;
+  			}
+		}
+		setInterval(changeBgColor, 2000);
