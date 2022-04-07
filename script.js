@@ -176,4 +176,4 @@ function winning(board, player) {
     			i = 0;
   			}
 		}
-		setInterval(changeBgColor, 5000);
+		setInterval(changeBgColor, 3000);
