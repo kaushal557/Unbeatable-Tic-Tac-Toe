@@ -61,9 +61,9 @@ table {
 .main {
   width: 100vw;
   height: 100vh;
-  /* background:linear-gradient(#f7aeb7, #ffcccc, #ffeee6); */
+  /* background:linear-gradient(#f7aeb7, #ffcccc, #ffeee6); 
   background-color: #85FFBD;
-  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
 
   display: flex;
   flex-direction: column;
