@@ -163,7 +163,7 @@ function winning(board, player) {
 }
 
 //automatic changing background color
-    var div_main = document.getElementByClassName("main");
+    var div_main = document.getElementById("background");
 		var r = [102, 99, 6];
 		var g = [204, 211, 179];
 		var b = [6, 179, 219];
